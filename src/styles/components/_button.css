@@ -1,0 +1,45 @@
+.big-button{
+    background: linear-gradient(80deg, #b11697, #713d29 50%, #811378 50%, #8338EC);
+    border: none;
+    border-bottom: .6rem solid var(--purple);
+    color: white;
+    font-weight: bold;
+    font-size: var(--xl-size);
+    margin-bottom: var(--xl-size);
+    padding: 2.4rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+.big-button-disabled{
+    background: gray;
+    border: none;
+    border-bottom: .6rem solid var(--purple);
+    color: white;
+    opacity: .5;
+    font-weight: bold;
+    font-size: var(--xl-size);
+    margin-bottom: var(--xl-size);
+    padding: 2.4rem;
+    width: 100%;
+    cursor: default;
+}
+
+.button{
+    background: linear-gradient(80deg, #b11697, #713d29 50%, #811378 50%, #8338EC);
+    border: none;
+    border-bottom: .3rem solid var(--purple);
+    color: white;
+    font-weight: 500;
+    font-size: var(--sm-size);
+    margin-bottom: var(--sm-size);
+    padding: 1.2rem;
+    cursor: pointer;
+}
+
+.button-link{
+    background: none;
+    border: none;
+    color: whitesmoke;
+    padding: 0;
+}

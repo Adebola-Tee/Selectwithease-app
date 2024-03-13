@@ -1,0 +1,24 @@
+.widget{
+    background: var(--light-purple);
+    margin-bottom: var(--xl-size);
+}
+
+.widget__message{
+    text-align: center;
+    margin: 0;
+    padding: var(--m-size);
+    color: whitesmoke;
+    border-bottom: 1px solid wheat;
+}
+
+.widget-header{
+    display: flex;
+    justify-content: space-between;
+    background: var( --light-brown) ;
+    padding: var(--m-size);
+    color: blueviolet;
+}
+
+.widget-header__title{
+    margin: 0;
+}

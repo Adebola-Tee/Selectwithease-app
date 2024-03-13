@@ -1,0 +1,15 @@
+.option{
+    display: flex;
+    justify-content: space-between;
+    padding: var(--m-size);
+    margin: 0;
+    border-bottom:1px solid wheat;
+}
+
+.option__text{
+    font-weight: bold;
+    font-size: 1.6rem;
+    color:white ;
+    margin: 0;
+    word-break: break-all;
+}

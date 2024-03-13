@@ -1,0 +1,28 @@
+.addoption{
+    padding: var(--m-size);
+       display: flex;
+       justify-content: space-between;
+}
+
+.addoption__input{
+    flex-grow: 1;
+    margin-right: 1.6rem;
+    background:var(  --dark-blue) ;
+    caret-color: white;
+    border: none;
+    border-bottom:1px solid purple ;
+    padding: var(--sm-size);
+    color: white;
+}
+
+@media(max-width: 45rem){
+    .addoption{
+          flex-direction: column;
+    }
+    .addoption__input{
+        margin-bottom: 2rem;
+    }
+    .button{
+        max-width: 10rem;
+    }
+}

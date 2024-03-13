@@ -1,0 +1,18 @@
+.header{
+background: #20222b;
+color: white;
+margin-bottom: var(--xl-size);
+padding: 20px 0;
+}
+
+.header-title{
+font-size: var(--xl-size);
+margin: 0;
+}
+
+.header-subtitle{
+    color:#d6c1d4;
+    font-size: var(--sm-size);
+    font-weight: 500;
+    margin: 0;
+}
